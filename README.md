@@ -1,5 +1,7 @@
 # Big Data: Foreign Key Constraint Aware, Backup/Restore Application Integration
 
+> **Note:** This project was built circa 2015-2016 using Spring XD, which has since been deprecated. The underlying concepts (foreign key constraint-aware backup/restore ordering, schema dependency analysis) remain applicable, but the technology stack is obsolete. Kept as a reference for the architectural approach.
+
 ## Overview
 The purpose of the application is to centralize big data import/export jobs, with foreign key constraint awareness for multiple applications. A web user interface that can easily be integrated into existing other web applications using CORS is provided.
 A proxy server mediates spring xd processes through REST API interactions, setting up  and keeping in sync  job definitions and  associated  stream tap  definitions  automatically for registered data sources.
